@@ -1,0 +1,27 @@
+.card__title {
+    color: var(--color-azul-oscuro);
+    font-weight: bold;
+}
+
+.card__link > a,
+.card__link > i {
+    color: var(--color-orange);
+    text-decoration: none;
+}
+
+.card-group {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    min-width: 300px !important;
+    max-width: 300px !important;
+}
+.card {
+    background: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 1px #e8d8ff;
+}

@@ -1,0 +1,45 @@
+.flex-center-full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root {
+    --color-lila: #9470f7;
+    --color-orange: #fc7c45;
+    --color-black: rgb(47, 47, 47);
+    --color-azul: rgb(56, 141, 172);
+    --color-azul-claro: rgb(38, 88, 139);
+    --color-amarillo: rgb(255, 222, 95);
+    --color-lila-oscuro: #6a4fb7;
+    --color-verde: rgb(77, 106, 47);
+    --color-azul-oscuro: rgb(30, 69, 108);
+}
+
+.content {
+    padding: 1rem;
+    background: #f2f2f2;
+}
+
+.flex-center-start {
+    justify-content: start !important;
+    align-items: center !important;
+    display: flex !important;
+}
+
+.text-right {
+    padding: 0.5rem;
+    text-align: right;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-light-blue{
+    color: var(--color-azul-claro);
+}
+
+.text-dark-blue{
+    color: var(--color-azul-claro);
+}

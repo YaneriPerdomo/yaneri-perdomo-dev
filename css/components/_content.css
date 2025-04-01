@@ -1,0 +1,14 @@
+.content__title {
+    padding: 0.7rem;
+    background: var(--color-azul-claro);
+    color: white;
+}
+
+.content__description {
+    color: var(--color-azul-claro);
+}
+
+.content__subtitle {
+    color: var(--color-azul-claro);
+}
+

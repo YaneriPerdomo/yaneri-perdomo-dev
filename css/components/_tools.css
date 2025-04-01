@@ -1,0 +1,35 @@
+.tools__item--HTML {
+    background-color: #ff4800;
+}
+
+.tools__item--CSS,
+.tools__item--PHP,
+.tools__item--MYSQL {
+    background-color: var(--color-azul);
+}
+
+.tools__item--JS {
+    background-color: var(--color-amarillo);
+    color: var(--color-black) !important;
+}
+.tools__item--OTHER {
+    background-color: var(--color-verde);
+    color: white;
+}
+
+.tools {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.tools__item {
+    padding: 0.3rem;
+    border: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.tools__item--BS {
+    background-color: var(--color-lila-oscuro);
+}
