@@ -7,7 +7,7 @@ let $sidebar_items = document.querySelectorAll('.sidebar__item > a');
 window.addEventListener("hashchange", e => { router() })
 
 document.addEventListener('DOMContentLoaded', e => { router() })
-function router() {
+async function router() {
     let { hash } = window.location;
 
     switch (hash) {
@@ -27,8 +27,8 @@ function router() {
                 .then(res => res.ok ? res.text() : Promise.reject(error))
                 .then((html) => {
                     $content.innerHTML = html;
-                    console.info($sidebar_items[0])
-                    clear_sidebar_items($sidebar_items)
+                 
+                    clear_sidebar_items($sidebar_items);
                     $sidebar_items[0].classList.add('sidebar-item--selected')
                     $title.innerHTML = 'Acerca de mí'
                 }).catch((error) => { console.error("error") })
