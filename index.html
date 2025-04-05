@@ -14,34 +14,27 @@
     <link rel="stylesheet" href="css/components/_sidebar.css" />
     <link rel="stylesheet" href="css/components/_tools.css" />
     <link rel="stylesheet" href="css/layouts/_base.css" />
-    <link rel="icon" type="image/x-icon" href="./img/ico.ico" />
+    <link rel="icon" type="image/x-icon" href="./img/ico.ico">
 
+   
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/6L2z4j7x6f5e5f5e5f5e5f5e5f5e5f5e5f5e"
-      crossorigin="anonymous"
-    />
-
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <style>
       @media (max-width: 768px) {
         .sidebar__content {
           display: none;
         }
 
-        main,
-        html {
+        main, html{
           background: none !important;
         }
 
-        .burger-menu {
+        .burger-menu{
           display: flex !important;
-
+        
           align-items: center;
         }
 
@@ -87,17 +80,17 @@
           justify-self: center;
         }
 
-        .card-group {
+        .card-group{
           justify-content: center;
         }
 
-        .burger-menu__profile {
+        .burger-menu__profile{
           width: 40px;
         }
 
-        .burger-menu__button {
-          background: none;
-          border: none;
+        .burger-menu__button{
+          background:none;
+          border:none;
         }
       }
 
@@ -117,24 +110,21 @@
     <main class="h-100 shadow">
       <div class="container-xl h-100">
         <div class="row h-100 w-100">
-          <div
-            class="col-12 col-md-2 sidebar flex-center-full"
-            style="align-items: self-start"
-          >
-            <div class="burger-menu" style="display: none">
+          <div class="col-12 col-md-2 sidebar flex-center-full "style="  align-items: self-start;">
+            <div class="burger-menu" style="display: none;">
+              
               <button class="burger-menu__button">
                 <a
-                  class="btn btn-primary offCanvasSpaceN offCanvasIndex"
-                  data-bs-toggle="offcanvas"
-                  href="#offCanvasSpaceN"
-                  role="button"
-                  aria-controls="offCanvasSpaceN"
-                  ><img
-                    src="./img/burgerMenu.png"
-                    class="img-fluid burgerMenu"
-                    alt="ayuda"
-                /></a>
-              </button>
+                class="btn btn-primary offCanvasSpaceN offCanvasIndex"
+                data-bs-toggle="offcanvas"
+                href="#offCanvasSpaceN"
+                role="button"
+                aria-controls="offCanvasSpaceN"
+              ><img
+                  src="./img/burgerMenu.png"
+                  class="img-fluid burgerMenu"
+                  alt="ayuda"
+                /></a></button>
               <div class="burger-menu__profile">
                 <img
                   src="./img/photo-yaneri-perdomo.png"
@@ -142,13 +132,14 @@
                   alt=""
                 />
               </div>
-
+              
               <div
                 class="offcanvas offcanvas-start"
                 tabindex="-1"
                 id="offCanvasSpaceN"
                 aria-labelledby="offCanvasSpaceN"
               >
+              
                 <div class="offcanvas-header">
                   <div class="burger-menu__profile">
                     <img
@@ -166,6 +157,7 @@
                 </div>
                 <hr style="margin: 0.1rem" />
                 <nav class="offcanvas-body sidebar__content">
+                  
                   <ul class="sidebar__ul">
                     <li class="sidebar__item sidebar__item--text-light-blue">
                       <a
@@ -207,7 +199,7 @@
               </div>
             </div>
 
-            <div class="sidebar__content">
+            <div class="sidebar__content" >
               <div class="sidebar__img">
                 <img
                   src="./img/photo-yaneri-perdomo.png"
@@ -238,13 +230,11 @@
           </div>
           <article class="col-10 content"></article>
         </div>
-        <br /><br /><br />
-      </div>
+        <br><br><br>
+    </div>
+     
     </main>
-
-    <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz4fnFO9gybB3a5c5e
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   </body>
   <script src="./js/router.js" type="module"></script>
   <script src="js/gallery.js"></script>
