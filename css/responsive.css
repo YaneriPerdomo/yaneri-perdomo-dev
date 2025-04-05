@@ -1,0 +1,81 @@
+@media (max-width: 768px) {
+    .sidebar__content {
+      display: none;
+    }
+
+    main,
+    html {
+      background: none !important;
+    }
+
+    .burger-menu {
+      display: flex !important;
+
+      align-items: center;
+    }
+
+    .offcanvas-body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sidebar {
+      align-items: start;
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    .offCanvasSpaceN,
+    .offCanvasSpaceN {
+      margin: 0.5rem;
+      background: none !important;
+      border: none !important;
+      padding-right: 0;
+    }
+
+    .row {
+      margin: 0;
+    }
+
+    .sidebar {
+      height: 70px;
+      padding: 0;
+    }
+
+    .content {
+      height: 100%;
+      width: 100vw;
+    }
+
+    .container-xl {
+      padding: 0;
+    }
+
+    .burger-menu {
+      display: flex !important;
+      justify-self: center;
+    }
+
+    .card-group {
+      justify-content: center;
+    }
+
+    .burger-menu__profile {
+      width: 40px;
+    }
+
+    .burger-menu__button {
+      background: none;
+      border: none;
+    }
+  }
+
+  .burgerMenu {
+    width: 40px;
+    height: 39px;
+    background: none;
+  }
+
+  .sidebar__item--text-light-blue > a {
+    color: var(--color-azul-claro) !important;
+  }

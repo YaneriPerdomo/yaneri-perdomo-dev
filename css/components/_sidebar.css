@@ -1,19 +1,26 @@
 .sidebar__ul {
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
-    padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 1rem;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .sidebar__item > a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .sidebar {
-    background: var(--color-azul-claro);
+  background: var(--color-azul-claro);
+}
+
+.sidebar-item--selected {
+  background: white;
+  color: var(--color-azul);
+  color: var(--color-azul-claro) !important;
+  padding: 0.2rem;
 }

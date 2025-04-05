@@ -1,5 +1,10 @@
 .course__list > li,
 .education__list > li,
-.soft-skills__list > li {
+.soft-skills__list > li,
+.skills__list > li {
+  list-style: circle !important;
+}
+
+.skills__list > li, .job__list > li {
   list-style: circle !important;
 }

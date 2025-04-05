@@ -1,27 +1,74 @@
 .card__title {
-    color: var(--color-azul-oscuro);
-    font-weight: bold;
+  color: var(--color-azul-oscuro);
+  font-weight: bold;
 }
 
 .card__link > a,
 .card__link > i {
-    color: var(--color-orange);
-    text-decoration: none;
+  color: var(--color-orange);
+  text-decoration: none;
 }
 
 .card-group {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .card {
-    min-width: 300px !important;
-    max-width: 300px !important;
+  min-width: 300px !important;
+  max-width: 300px !important;
 }
 .card {
-    background: white;
-    padding: 1rem;
-    border-radius: 1rem;
-    border: solid 1px #e8d8ff;
+  background: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid 1px #e8d8ff;
+}
+
+.card__img {
+  width: 300px;
+}
+
+.text-black,
+.card__link > a,
+.card__link > a:hover,
+.card__link > a:focus,
+.card__link > a:active,
+.card__link > i {
+  color: var(--color-black);
+}
+
+.card {
+  height: clamp(536px, 50vh, 490px);
+  width: 200px;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: var(--color-white);
+}
+
+.card > div {
+  display: flex;
+  position: relative;
+  height: 100%;
+  flex-direction: column;
+}
+
+.card__link {
+  flex-grow: 2;
+  position: absolute;
+  bottom: 0em;
+  right: 0rem;
+}
+
+.card__link {
+  color: var(--color-black) !important;
+}
+
+.card {
+  height: clamp(536px, 50vh, 490px) !important;
+  width: 200px !important;
+  padding: 0.5rem !important;
+  border-radius: 1rem !important;
+  background-color: var(--color-white) !important;
 }

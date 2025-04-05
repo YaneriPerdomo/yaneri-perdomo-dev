@@ -1,3 +1,7 @@
 .full-h {
     height: 100%;
 }
+
+html, main{
+    background: var(--color-black) !important;
+}

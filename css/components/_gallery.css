@@ -1,0 +1,11 @@
+.gallery__main > img {
+  width: 80%;
+}
+
+.gallery__thumbnails > img {
+  width: 100%;
+}
+
+.gallery__img--selected {
+  border: var(--color-black) 2px solid;
+}

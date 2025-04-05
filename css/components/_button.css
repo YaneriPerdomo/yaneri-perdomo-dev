@@ -1,0 +1,20 @@
+.back > button {
+  background: none !important;
+  color: grey !important;
+  border: none !important;
+}
+
+.back > button > a {
+  color: grey !important;
+}
+
+.button__black,
+.button__black:hover,
+.button__black:focus,
+.button__black:active {
+  background: var(--color-black);
+  border: solid 2px white;
+
+  padding: 0.5rem 1rem;
+  color: white !important;
+}
