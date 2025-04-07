@@ -20,7 +20,16 @@ li {
 
 .sidebar-item--selected {
   background: white;
-  color: var(--color-azul);
   color: var(--color-azul-claro) !important;
+  padding: 0.2rem;
+}
+
+.sidebar__item--text-light-blue > a {
+  color: var(--color-azul-claro);
+}
+
+.sidebar-item--selected-responsive {
+  background: var(--color-azul-claro) !important;
+  color: white !important ;
   padding: 0.2rem;
 }

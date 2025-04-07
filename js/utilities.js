@@ -225,7 +225,8 @@ export const TOTAL_INFORMATION_PROJECTS = {
 
 export function clear_sidebar_items($items) {
     $items.forEach(element => {
-        element.classList.remove('sidebar-item--selected')
+        element.classList.remove('sidebar-item--selected');
+        element.classList.remove('sidebar-item--selected-responsive');
     });
 }
 
@@ -309,3 +310,7 @@ export function render_project_details(name) {
 
     `;
 }
+
+export let $content = document.querySelector(".content")
+export let $title = document.querySelector('title');
+export let $sidebar_items = document.querySelectorAll('.sidebar__item > a');
