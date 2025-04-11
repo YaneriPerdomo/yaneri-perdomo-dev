@@ -119,13 +119,22 @@ async function router() {
             break;
 
         case '#proyecto-sonidos-del-habla':
-            let html2 = render_project_details('sonidos_del_habla');
-            $content.innerHTML = html2;
+            let html3 = render_project_details('sonidos_del_habla');
+            $content.innerHTML = html3;
             clear_sidebar_items($sidebar_items);
             $sidebar_items[1].classList.add('sidebar-item--selected-responsive')
             $sidebar_items[6].classList.add('sidebar-item--selected')
 
             $title.innerHTML = 'Proyecto educativo';
+            break;
+        case '#proyecto-tasa-del-dia':
+            let html2 = render_project_details('tasa_del_dia');
+            $content.innerHTML = html2;
+            clear_sidebar_items($sidebar_items);
+            $sidebar_items[1].classList.add('sidebar-item--selected-responsive')
+            $sidebar_items[6].classList.add('sidebar-item--selected')
+
+            $title.innerHTML = 'Proyecto en tiempo real';
             break;
 
 

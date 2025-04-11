@@ -220,6 +220,48 @@ export const TOTAL_INFORMATION_PROJECTS = {
             ,
             scope: `Esta aplicación web se concibe como una herramienta integral para el tratamiento de la dislalia, ofreciendo un enfoque estructurado y personalizado. Su alcance abarca la provisión de más de 15 ejercicios de habla, diseñados para fortalecer la musculatura orofacial, mejorar la pronunciación de fonemas y desarrollar la fluidez verbal. Además, incorpora un calendario de asistencia que permite a los profecionales y pacientes visualizar el progreso y la regularidad de las sesiones. La aplicación también ofrece materiales de apoyo adicionales. Finalmente, se incluye un historial de actividades detallado, que registra todas las acciones realizadas por los pacientes, facilitando el seguimiento y la evaluación del tratamiento.`
         },
+    },
+    tasa_del_dia: {
+        title: 'Aplicación web para consultar el valor del dólar en Venezuela en tiempo real',
+        meta: {
+            type_project: 'en tiempo real',
+            GitHub: 'https://github.com/YaneriPerdomo/tasa-del-dia',
+            video: ''
+        },
+        media: {
+            file: 'tasa-del-dia',
+            thumbnails: [
+                {
+                    src: 'main.png',
+                    alt: 'Aplicacion web'
+                }, {
+
+                    src: 'code.png',
+                    alt: 'Proyecto a nivel de codigo'
+                },
+                {
+
+                    src: 'responsive.PNG',
+                    alt: 'Dispositivo movil'
+                },
+                {
+
+                    src: 'diagrama-de-flujo.png',
+                    alt: 'Diagrama de flujo'
+                },
+                {
+
+                    src: 'diagrama-de-casos-de-uso.png',
+                    alt: 'Diagrama de casos de uso'
+                }
+            ],
+            main: 'main.png',
+        },
+        content: {
+            objective: `Desarrollar una aplicación web para consultar el valor del dólar en Venezuela en tiempo real.`
+            ,
+            scope: `Esta aplicación web es una herramienta esencial para los trabajadores venezolanos, ya que les proporciona información actualizada y precisa sobre el valor del dólar frente al bolívar, tanto al tipo de cambio oficial como al paralelo. Dada la frecuente devaluación de la moneda local, también destaca por su capacidad para detectar y actualizar valores automáticamente, eliminando la necesidad de recargar la página y garantizando que las personas siempre tengan acceso a la información más actualizada.`
+        },
     }
 }
 

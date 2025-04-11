@@ -33,3 +33,7 @@
 .tools__item--BS {
     background-color: var(--color-lila-oscuro);
 }
+
+.tools__item--LARAVEL{
+    background: var(--color-rojo);
+}
